@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Ears</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="head">
+            <h1 align="center" style="color: bisque;"><i>HAPPYEARS</i></h1>
+        </div>
+    </nav>
+
+
+
+
+</body>
+</html>
