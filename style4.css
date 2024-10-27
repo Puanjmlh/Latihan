@@ -1,3 +1,4 @@
+/* style dasar */
 head,body {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
@@ -65,6 +66,7 @@ h1 {
     background-color: #d5ddd2;
 }
 
+/* pendahuluan */
 .pendahuluan .gambar1 img {
     width: 600px;
     margin-left: 20px;
@@ -78,7 +80,6 @@ h1 {
     margin-top: 90px;
     margin-bottom: 30px;
     text-align: center;
-    background-image: ;
 }
 
 .pendahuluan .Deskripsi h3 {
@@ -94,25 +95,154 @@ h1 {
     margin-left: 20px;
 }
 
+/* isikonten */
 .isikonten {
     padding-top: 1px;
     padding-bottom: 1px;
     box-shadow: 0 4px 8px #8aa282;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.isikonten h3 {
-    text-align: center;
+.isikonten img {
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 5px solid #8aa282;
+    padding: 5px;
 }
 
-.isikonten h4 {
+.isikonten h3, .isikonten2 h3 {
+    text-align: center;
+    background-color: #8aa282;
+}
+
+.isikonten h4, .isikonten2 h4 {
     margin-bottom: 10px;
     margin-left: 20px;
 }
 
-.isikonten p {
+.isikonten p , .isikonten2 p {
     margin-top: 5px;
     margin-left: 20px;
+    margin-right: 20px;
+}
 
+/* isikonten2 */
+.isikonten2 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 4px 8px #8aa282;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kata {
+    text-align: center;
+    background-color: #d5ddd2;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+table,th,td {
+    border: 2px solid #8aa282;
+    border-collapse: collapse;
+}
+
+table {
+    width: 70%;
+}
+
+th,td {
+    padding: 10px; 
+    text-align: justify;
+}
+
+th {
+    text-align: center;
+    background-color: #d5ddd2;
+}
+
+.isikonten2 video {
+    height: 300px;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    border: 5px solid #8aa282;
+    padding: 5px;
+}
+
+/* info-info */
+.adopsi {
+    margin-left: 20px;
+}
+
+.donasi {
+    margin-left: 170px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 4px 8px #8aa282;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 430px;
+}
+
+.donasi h3 {
+    text-align: center;
+}
+
+.donasi p {
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+a {
+    color: #8aa282;
+}
+
+.donasi img {
+    float: left;
+    width: 200px;
+    margin-left: 250px;
+    margin-right: 80px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background-color: #8aa282;
+    color: #ffffff;
+}
+
+/* stylefooter */
+.footer {
+    position: static;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    width: 1360px;
+    background-color: #8aa282;
+    color: #000000;
+}
+
+.footer .web {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer img {
+    margin-top: -99px;
+    margin-left: 580px;
+    height: 220px;
+}
+
+.footer .info {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;
 }
