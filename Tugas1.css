@@ -1,0 +1,17 @@
+h1 {
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.home {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-image: url(Images/garuda.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 91%;
+	margin-top: -50px;
+}
